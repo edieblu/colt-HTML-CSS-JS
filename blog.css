@@ -1,0 +1,39 @@
+/*border color: #bdc3c7
+date color: #3498db
+h2 color: #2c3e50
+
+font: source sans pro*/
+
+body {
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+	font-family: "Source Sans Pro";
+	border: 20px solid #bdc3c7;
+}
+
+div {
+	padding: 20px;
+}
+
+h3 {
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	color: #3498db;
+}
+
+.headline {
+	border-left: 3px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+hr {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+h1 {
+	color: #2c3e50;
+	font-size: 2.0rem;
+}

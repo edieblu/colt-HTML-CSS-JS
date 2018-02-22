@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Here</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<label for="name"> First Name:</label>
+		<input type="text" name="name" id="name" placeholder="John" required>
+		<label for="surname"> Last Name:</label>
+		<input type="text" name="surname" id="surname" placeholder="Smith" required>
+		
+		<br>
+
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="male" value="male">
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="female" value="female">
+		<label for="other">Other</label>	
+		<input type="radio" name="gender" id="other" value="other">
+		
+		<br>
+
+		<label for="email"> Email</label>
+		<input type="email" name="email" id="email" placeholder="your email" required>
+		
+		<label for="password"> Password</label>
+		<input type="password" name="password" id="password" placeholder="your password" minlength="5" maxlength="10">
+		
+		<br>
+
+		<label for="birthday-month">Birthday:</label>
+			
+			<select name="birthday-month" id="birthday-month">
+				<option value="month">Month</option>
+				<option value="January">January</option>
+				<option value="February">February</option>
+				<option value="March">March</option>
+				<option value="April">April</option>
+				<option value="May">May</option>
+				<option value="June">June</option>
+				<option value="July">July</option>
+				<option value="August">August</option>
+				<option value="September">September</option>
+				<option value="October">October</option>
+				<option value="November">November</option>
+				<option value="December">December</option>
+			</select>
+	
+
+		<label for="birthday-day"></label>
+			<select name="birthday-month" id="birthday-day">
+				<option>Day</option>
+			</select>
+		
+
+		<label for="birthday-year">	</label>
+			<select name="birthday-year" id="birthday-year">
+				<option>Year</option>
+			</select>
+		<br>
+		<label for="agreement">	</label>
+			<p>I agree to the terms and conditions
+			<input type="checkbox" name="agree" id="agreement">
+			</p>
+		<input type="submit" name="submit">
+
+	</form>
+
+</body>
+</html>
